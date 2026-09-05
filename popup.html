@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 300px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      font-size: 18px;
+      margin-top: 0;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #videoList {
+      margin-top: 15px;
+    }
+    .video-item {
+      background: white;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 4px;
+      border-left: 4px solid #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎬 Video Downloader</h1>
+  <button id="detectBtn">Detect Videos</button>
+  <div id="videoList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
